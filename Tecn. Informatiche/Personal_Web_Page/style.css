@@ -1,0 +1,133 @@
+body {
+    background-color: #f0f5f2;
+    color: #1f2d27;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+header {
+    background-color: #dcebe2;
+    text-align: center;
+    padding: 25px 20px;
+}
+
+h1 {
+    color: #143628;
+    text-align: center;
+    font-size: 46px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 0 8px;
+}
+
+h2, h3, h4 {
+    color: #1b5e43;
+    margin-top: 0;
+}
+
+h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.sottotitolo {
+    color: #4a6358;
+    text-align: center;
+    font-style: italic;
+}
+
+nav {
+    background-color: #1b5e43;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 16px;
+    margin: 4px;
+    border-radius: 6px;
+    transition: background-color 0.2s;
+}
+
+nav a:hover, nav a:focus-visible {
+    background-color: #2d805e;
+}
+
+nav a.attivo {
+    background-color: #ffffff;
+    color: #1b5e43;
+    font-weight: bold;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 25px 20px;
+}
+
+section {
+    background-color: #ffffff;
+    border: 1px solid #cce0d4;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px rgba(27, 94, 67, 0.08);
+}
+
+main a {
+    color: #1b5e43;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+.evidenza {
+    color: #143628;
+    background-color: #d1fae5;
+    border-left: 4px solid #1b5e43;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+.foto {
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    margin: 16px auto;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+}
+
+footer {
+    background-color: #143628;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-top: 4px solid #34a877;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0 0 8px;
+}
+
+footer a {
+    color: #a7f3d0;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

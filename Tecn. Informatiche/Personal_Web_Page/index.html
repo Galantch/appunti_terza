@@ -1,41 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Web Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Personal Web Page</h1>
-    <h4>Dati anagrafici</h4>
-    <ul>
-        <li>Nome e Cognome: Marco Galanti</li>
-        <li>Data di nascita: 30 luglio 2010</li>
-        <li>Luogo di nascita: Brescia (BS)</li>
-    </ul>
-    <h4>Dati storici Comune e Nazione</h4>
-    <ul>
-        <li>Comune: Castenedolo
-            <br>
-            <p>La storia di Castenedolo affonda le sue radici nella preistoria, quando le sue caratteristiche colline emersero dalla pianura padana, diventando celebri a fine Ottocento per il controverso ritrovamento archeologico dell'Uomo di Castenedolo.
-        <br>
-Il borgo, il cui nome deriva probabilmente dagli antichi boschi di castagno che ricoprivano la zona, si è sviluppato nei secoli successivi come un operoso centro rurale. Dotato di propri statuti comunali già nel XV e XVII secolo, il paese ha legato a lungo il proprio destino politico a quello della vicina Brescia e della Repubblica di Venezia, basando la sua economia sull'agricoltura e sulla viticoltura. Durante il Risorgimento il territorio visse in prima linea le guerre d'indipendenza, trasformando le proprie strutture in ospedali militari nel 1859. Tra la fine dell'Ottocento e l'inizio del Novecento, Castenedolo ha avviato un importante processo di modernizzazione sociale con la nascita dei primi servizi per l'infanzia a sostegno delle famiglie contadine, fino a trasformarsi nel comune dinamico e produttivo che conosciamo oggi.</p>
-        </li>
-        <li>Nazione: Italia
-            <br>
-            <p>La storia d'Italia è un cammino millenario che inizia con l'unificazione della penisola sotto l'Impero Romano, la cui caduta nel 476 d.C.
-apre la strada a secoli di profonde frammentazioni politiche. Durante il Medioevo e il Rinascimento, nonostante la divisione in piccoli Stati, Comuni e Signorie, l'Italia si afferma come il centro culturale, artistico ed economico del mondo intero, pur subendo per lungo tempo il controllo delle grandi potenze straniere. La svolta decisiva arriva nell'Ottocento con il Risorgimento, il movimento d'indipendenza che porta alla proclamazione del Regno d'Italia il 17 marzo 1861. Nel Novecento, dopo aver vissuto il dramma della Prima Guerra Mondiale e il ventennio della dittatura fascista, il Paese risorge dalle macerie del secondo conflitto mondiale e, grazie al referendum del 2 giugno 1946, diventa una Repubblica, trasformandosi in una delle principali economie democratiche e industriali del pianeta.</p>
-        </li>
-    </ul>
-    
-    <img src="img/cartina_Castenedolo.png" alt="Mappa di Castenedolo - Lombardo Geosystems" width="280" height="200">
-    <br>
-    <h4>Link ad altre pagine</h4>
-    <ul>
-        <li><a href="hobby.html">Hobby</a></li>
-        <li><a href="sport.html">Sport</a></li>
-        <li><a href="viaggi.html">Viaggi</a></li>
-    </ul>
+    <header>
+        <h1>Personal Web Page</h1>
+        <h2>Chi sono</h2>
+    </header>
 
+    <nav>
+        <a href="index.html" class="attivo">Home</a>
+        <a href="hobby.html">Hobby</a>
+        <a href="sport.html">Sport</a>
+        <a href="viaggi.html">Viaggi</a>
+        <a href="progetti.html">Progetti</a>
+    </nav>
+
+    <main>
+        <section>
+            <h3>Dati anagrafici</h3>
+            <ul>
+                <li><strong>Nome e Cognome:</strong> Marco Galanti</li>
+                <li><strong>Data di nascita:</strong> 30 luglio 2010</li>
+                <li><strong>Luogo di nascita:</strong> Brescia (BS)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Dati storici Comune e Nazione</h3>
+            <ul>
+                <li>
+                    <strong>Comune: Castenedolo</strong>
+                    <p>Castenedolo ha origini molto antiche, famose soprattutto per il ritrovamento dell'Uomo di Castenedolo nell'Ottocento. Nato come paese agricolo legato a Brescia e alla Repubblica di Venezia, ha avuto le sue prime regole comunali già tra il Quattrocento e il Seicento. Dopo aver vissuto da vicino le guerre del Risorgimento, tra l'Ottocento e il Novecento è cresciuto molto, diventando il comune moderno e attivo di oggi.</p>
+                </li>
+                <li>
+                    <strong>Nazione: Italia</strong>
+                    <p>Unita per la prima volta sotto l'Impero Romano, dopo la sua caduta l'Italia è rimasta divisa in tanti piccoli Stati per molti secoli, diventando comunque famosa in tutto il mondo per l'arte e la cultura del Rinascimento. È tornata unita solo nel 1861 con il Risorgimento. Dopo le due guerre mondiali e il fascismo, il 2 giugno 1946 gli italiani hanno votato per diventare una Repubblica, trasformando il Paese in una delle principali economie democratiche.</p>
+                </li>
+            </ul>
+
+            <img src="img/cartina_Castenedolo.png" alt="Mappa di Castenedolo - Lombardo Geosystems" class="foto">
+        </section>
+
+        
+    </main>
+
+    <footer>
+        <p>Marco Galanti 3BI | Personal web page</p>
+        <a href="index.html">Torna alla Home</a>
+    </footer>
 </body>
 </html>
