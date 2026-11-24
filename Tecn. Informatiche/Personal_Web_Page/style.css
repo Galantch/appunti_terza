@@ -131,3 +131,24 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+figcaption {
+    text-align: center;
+    font-family: comic 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+
+.box-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  width: 32px;
+  height: auto;
+}
+
+.box-logo p {
+  margin: 0;
+}
