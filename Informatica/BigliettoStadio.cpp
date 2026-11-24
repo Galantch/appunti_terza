@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+
 using namespace std;
 
 struct DatiSistema {
@@ -18,6 +19,10 @@ void stampaln(string x){
      std::cout<<x<<endl;
 }
 void input(string x, int &dato){
+    stampa(x);
+    cin>>dato;
+}
+void input(string x, double &dato){
     stampa(x);
     cin>>dato;
 }
