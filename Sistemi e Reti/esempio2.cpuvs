@@ -1,0 +1,5 @@
+               LOD #5
+               ADD #10
+               SUB #1
+               STO 10
+               HLT

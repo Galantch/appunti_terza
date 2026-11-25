@@ -1,0 +1,18 @@
+               LOD X
+               CMP Y
+               JN 10
+               STO Z
+               HLT
+               LOD Y
+               STO Z
+               HLT
+               NOP
+               NOP
+               NOP
+               NOP
+               NOP
+               NOP
+               NOP
+Z:             11
+Y:             11
+X:             10
